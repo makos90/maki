@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przetwarzanie XLSX</title>
+</head>
+<body>
+    <h2>Prześlij plik Excel i wybierz opcję przekształcenia</h2>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <br><br>
+        <label><input type="radio" name="option" value="1" required> Opcja 1</label><br>
+        <label><input type="radio" name="option" value="2"> Opcja 2</label><br>
+        <label><input type="radio" name="option" value="3"> Opcja 3</label><br>
+        <label><input type="radio" name="option" value="4"> Opcja 4</label><br>
+        <label><input type="radio" name="option" value="5"> Opcja 5</label><br><br>
+        <button type="submit">Przetwórz plik</button>
+    </form>
+</body>
+</html>
